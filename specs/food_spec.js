@@ -1,6 +1,6 @@
 var Food = require('../food');
 var assert = require('assert');
-
+ 
 
 
 describe('Food', function(){
@@ -9,7 +9,7 @@ describe('Food', function(){
 
   beforeEach(function(){
 
-    rye = new Food("Conjured Rye");
+    rye = new Food("Conjured Rye", 15);
   });
 
   it('should have a title', function(){
