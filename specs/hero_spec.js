@@ -46,4 +46,8 @@ beforeEach(function(){
     assert.equal(23.5, eilonwy.healthpts);
   });
 
+  it('should not add healthpts because health is full', function(){
+    eilonwy.healthpts = 49
+  })
+
 })
